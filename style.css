@@ -1,0 +1,49 @@
+body{
+    width: 40rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+input {
+    margin-top: 0.7rem;
+    font-size: 1.5rem;
+
+}
+.form {
+    display: inline-flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    margin-right: 1rem;
+}
+h1 {
+    background-color: white;
+    z-index: 3;
+    position: relative;
+    padding: 1rem;
+
+}
+h3 {
+position: relative;
+right: 0px;
+top: 0px;
+text-align: right;
+animation: mymove 2s alternate;
+
+}
+@keyframes mymove {
+    from {
+        transform: rotateZ(-40deg);
+        transform-origin: 40% 60%;
+        color: white;
+    }
+    to {
+        transform: rotateY(40deg);
+        transform-origin: 40% 60%;
+        color: rgb(32, 96, 57);
+    }
+  }
